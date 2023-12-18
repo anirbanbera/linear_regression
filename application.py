@@ -4,7 +4,8 @@ import numpy as np
 import pandas as pd
 import matplotlib as plt
 from sklearn.preprocessing import StandardScaler
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 
 ## import standardscaler model and regressor mode
